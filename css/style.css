@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Vollkorn+SC');
+
+/* -- Base --
+***************/
+body {
+  background-color: #f7f7f7;
+  font-family: 'Vollkorn SC', serif;
+}
+a {text-decoration: none;}
+li {cursor: pointer;}
+
+/* #home
+**********/
+#home #welcome {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/welcome.jpg") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Courgette', cursive;
+  height: 100vh;
+  color: #fff;
+  margin-bottom: 25px;
+}
+section {margin: 40px 0;}
+
+/* #features
+**************/
+#features .col-md-6 {margin-bottom: 20px;}
+
+/* #works
+***********/
+#works {overflow: hidden;}
+#works .row > div {padding: 0;}
+#works .row > div img {border: 1px solid #fff;}
+
+/* #ourteam
+*************/
+#ourteam h3 {margin-top: 10px;}
+
+/* #testimon
+**************/
+#testimon {background-color: rgba(220, 53, 69, 0.85); margin-bottom: 0;}
+
+/* #contact
+************/
+#contact {margin: 0; padding: 40px 0;}
+
+/* footer
+***********/
+footer p {margin: 10px 0;}
